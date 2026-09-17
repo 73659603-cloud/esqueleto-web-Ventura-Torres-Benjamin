@@ -1,0 +1,40 @@
+/* Centra todo en la pantalla y pone un fondo suave */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Diseña la caja blanca del centro */
+.contenedor {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Cambia la letra del título */
+h1 {
+  color: #333;
+}
+
+/* Diseña el botón */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Hace que el botón cambie de color al pasar el mouse encima */
+button:hover {
+  background-color: #1d4ed8;
+}
